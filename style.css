@@ -1,0 +1,41 @@
+@font-face{
+    font-family: fuente_src;
+    src: url(../font/sweetest_cat_ever/SweetestCatEver.ttf) format
+     ('truetype');
+}
+*{
+    margin:0;
+}
+
+.titulo{
+    font-family: fuente_src;
+    color:white;
+    background-color:black;
+    text-align:center;
+    margin:10px;
+    padding:15px;
+    width:335px;
+    height: 100px;
+}
+
+
+
+.roboto-condensed-formato {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:24px;
+  font-style: normal;
+}
+
+
+.playwrite-gb-s-guides-regular {
+  font-family: "Playwrite GB S Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-gb-s-guides-regular-italic {
+  font-family: "Playwrite GB S Guides", cursive;
+  font-weight: 400;
+  font-style: italic;
+}

@@ -1,0 +1,30 @@
+@font-face{
+    font-family: fuente_Bungee;
+    src: url(../font/Bungee_Inline/BungeeInline-Regular.ttf) format('truetype');
+}
+
+div{
+    width: 400px;
+    height: 500px;
+    margin:auto;
+    background-color: #bbbbbb;
+}
+
+.margenes{
+    padding: 10px;
+}
+
+.cabecera{
+    font-family:fuente_Bungee;
+    text-align:center;
+    color: aliceblue;
+    background-color: black;
+}
+
+#parrafo{
+    font-family:'Times New Roman';
+    font-size:30px;
+    text-align:center;
+    color: #0000ff;
+    background-color: #bbbbbb;
+}

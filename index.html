@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Ejercicios</title>
+    <style>
+        /* ==========================================================================
+           1. ESTILOS DEL ÍNDICE (Cuadros cortos, limpios y bonutos)
+           ========================================================================== */
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background: #fdfdfd;
+            color: #333;
+        }
+        h1 {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: #222;
+        }
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .item {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 12px 16px;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: border-color 0.15s, color 0.15s;
+        }
+        .item:hover {
+            border-color: #0066cc;
+            color: #0066cc;
+        }
+        .file {
+            font-family: monospace;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        /* ==========================================================================
+           2. ESTILOS DE TUS ARCHIVOS (Preservados intactos)
+           ========================================================================== */
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Fleur+De+Leah&family=Playwrite+GB+S+Guides&family=Roboto+Condensed&display=swap');
+
+        @font-face { font-family: 'fuente_pizza'; src: url('../font/pizza.ttf') format('truetype'); }
+        @font-face { font-family: 'fuente_pigeon'; src: url('../font/Pigeon/PigeonBold_PERSONAL.ttf') format('truetype'); }
+        @font-face { font-family: 'fuente_Bungee'; src: url('../font/Bungee_Inline/BungeeInline-Regular.ttf') format('truetype'); }
+        @font-face { font-family: 'fuente_src'; src: url('../font/sweetest_cat_ever/SweetestCatEver.ttf') format('truetype'); }
+
+        .p1 { font-family: "Times New Roman", serif; }
+        .p2 { font-family: Arial, Helvetica, sans-serif; }
+        .p3 { font-family: "Lucida Console", monospace; }
+        .formato { font-family: "Roboto Condensed", sans-serif; font-size: 18px; text-align: justify; line-height: 1.6; }
+        .titulo { font-family: "Playwrite GB S Guides", cursive; text-align: center; }
+        .fleur-de-leah-regular { font-family: "Fleur De Leah", cursive; font-size: 32px; }
+        #apartado_1 { font-family: fuente_pizza; font-size: 38px; color: blue; }
+        .pigeon { font-family: fuente_pigeon; text-align: center; color: #00ff15; }
+        .barlow-condensed-thin { font-family: "Barlow Condensed", sans-serif; font-weight: 100; }
+        .resaltado { color: #000000; background-color: #ffff00; font-style: italic; }
+        .margenes { padding: 10px; }
+        .cabecera { font-family: fuente_Bungee; text-align: center; color: aliceblue; background-color: black; }
+        #parrafo { font-family: 'Times New Roman'; font-size: 30px; text-align: center; color: #0000ff; background-color: #bbbbbb; }
+        #primero p { color: #369; }
+        #primero em { color: #0000BB; background-color: #FFFFCC; }
+        em.especial { color: #FFFF00; background: #000000; }
+        .normal span { font-weight: bold; }
+        .lista-puntos-rojos { border-top: 3px dotted #ff0000; border-bottom: 3px dotted #ff0000; padding: 10px 0; list-style-type: disc; }
+        .lista-guiones-verdes { border: 2px dashed #00b050; padding: 15px; list-style-type: disc; }
+    </style>
+</head>
+<body>
+
+    <h1>Mis Ejercicios HTML</h1>
+
+    <div class="list">
+        <a href="ejemplo1.html" class="item"><span>Ejemplo 1</span><span class="file">ejemplo1.html</span></a>
+        <a href="ejemplo2.html" class="item"><span>Ejemplo 2</span><span class="file">ejemplo2.html</span></a>
+        <a href="ejemplo3.html" class="item"><span>Ejemplo 3</span><span class="file">ejemplo3.html</span></a>
+        <a href="ejemplo4.html" class="item"><span>Ejemplo 4</span><span class="file">ejemplo4.html</span></a>
+        <a href="ejemplo5.html" class="item"><span>Ejemplo 5</span><span class="file">ejemplo5.html</span></a>
+        <a href="ejemplo6.html" class="item"><span>Ejemplo 6</span><span class="file">ejemplo6.html</span></a>
+        <a href="ejemplo7.html" class="item"><span>Ejemplo 7</span><span class="file">ejemplo7.html</span></a>
+        <a href="ejemplo8.html" class="item"><span>Ejemplo 8</span><span class="file">ejemplo8.html</span></a>
+        <a href="ejemplo9.html" class="item"><span>Ejemplo 9</span><span class="file">ejemplo9.html</span></a>
+        <a href="ejemplo10.html" class="item"><span>Ejemplo 10</span><span class="file">ejemplo10.html</span></a>
+        <a href="ejemplo11.html" class="item"><span>Ejemplo 11</span><span class="file">ejemplo11.html</span></a>
+        <a href="ejemplo12.html" class="item"><span>Ejemplo 12</span><span class="file">ejemplo12.html</span></a>
+    </div>
+
+</body>
+</html>
